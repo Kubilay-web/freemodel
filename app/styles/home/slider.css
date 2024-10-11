@@ -1,0 +1,31 @@
+.keen-slider__controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.keen-slider__control {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px; /* Düğme boyutu */
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.keen-slider__control:hover {
+  color: black; /* Üzerine gelince renk değiştir */
+}
+
+p.carousel-status {
+  display: none !important;
+}
+
+a.relative.block {
+  width: 200px !important;
+  margin: auto !important;
+}
+
+h4.cursor-pointer.pb-5.flex.items-center.justify-between.text-lg.text-black.font-bold {
+  width: 500px !important;
+}
